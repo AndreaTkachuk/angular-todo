@@ -1,59 +1,43 @@
-# AngularTodo
+# Todo App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+This project is a complete Angular Todo App that connects to an external API to manage todos. Users can add, delete, update, and mark todos as completed. The app provides a smooth user experience, ensuring data persistence through API integration. It demonstrates practical usage of React components, hooks, and asynchronous API requests using modern JavaScript (ES6+).
 
-## Development server
+## Instructios
 
-To start a local development server, run:
+- **Add and Delete Todos:** Users can add new tasks and remove existing ones.
+- **Toggle Todo Status:** Easily toggle the completion status of individual todos or all todos at once.
+- **Rename Todos:** Edit the title of a todo by double-clicking and save changes via form submission or on losing focus.
+- **Loading Indicators:** Loader overlays are displayed while waiting for API responses, improving user experience.
+- **Error Handling:** Provides feedback in case of API errors, including notifications for failed updates.
+- **User-Friendly Interface:** A clean and intuitive interface for managing todos with ease.
+- **Toggle All Todos:** A checkbox to toggle the completion status of all todos simultaneously.
+- **Real-Time Updates:** Changes are reflected in the UI immediately after successful API interactions.
 
-```bash
-ng serve
-```
+## Technologies
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Angular:** JavaScript library for building user interfaces.
+- **TypeScript:** Provides type safety and enhanced development experience.
+- **SASS:** For advanced styling
+- **Fetch API:** For making API requests to manage todos.
 
-## Code scaffolding
+## Link to the page:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+[TODOS LINK](https://AndreaTkachuk.github.io/angular-todo/)
 
-```bash
-ng generate component component-name
-```
+## For run the Project Locally follow these steps:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**Clone the repository:**
 
-```bash
-ng generate --help
-```
+    git clone https://github.com/AndreaTkachuk/angular-todo.git
 
-## Building
+**Navigate to the project directory:**
 
-To build the project run:
+    cd angular-todo
 
-```bash
-ng build
-```
+**Install the dependencies:**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+    npm install
 
-## Running unit tests
+**Start the development server:**
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+    npm start
